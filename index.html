@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Emoji Search App</h1>
+        <form id="search_form">
+          <input
+            type="text"
+            autocomplete="off"
+            placeholder="🔍 Emojee Search"
+            id="search_field"
+          />
+          <button type="button" class="tag-btn" data-tag="happy">Happy</button>
+          <button type="button" class="tag-btn" data-tag="sad">Sad</button>
+          <button type="button" class="tag-btn" data-tag="flag">Flag</button>
+          <button type="button" class="tag-btn" data-tag="blush">Blush</button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>emoji</th>
+              <th>aliases</th>
+              <th>description</th>
+            </tr>
+          </thead>
+          <tbody id="search_result_container"></tbody>
+        </table>
+      </div>
+    </main>
+    <script src="emojies.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
