@@ -2,6 +2,9 @@
 
 This is a simple web application that allows users to search and filter emojis based on descriptions, aliases, and tags.
 
+# Hosted link
+https://amanulla2022.github.io/emojiesApp/
+
 ## Getting Started
 
 1. Clone the repository:
